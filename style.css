@@ -220,9 +220,26 @@ header {
     color: #0071ce;
 }
 
+.offers{
+    margin-top: 2rem;
+}
 
+.offers > p {
+    color-scheme: #6b6b6b;
+}
 
+.offers-list{
+    display: flex;
+    justify-content: space-between;
+}
 
+.offers-banner{
+    color: white;
+    background-image: url("assets/banner-oferta.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
 
 
 
