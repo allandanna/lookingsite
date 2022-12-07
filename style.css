@@ -143,14 +143,14 @@ header {
     font-size: 16px;
 }
 
-#form-filter{
+#form-filter-content{
     height: 45px;
-    border: 1px solid #febb02;
+    border: 2px solid #febb02;
     background-color: #febb02;
     border-radius: 5px;
     display: flex;
     height: 45px;
-    margin: -20px;
+    margin-top: -20px;
     
 }
 
@@ -170,6 +170,7 @@ header {
     background-color: white;
     height: 100%;
     width: 100%;
+    margin-right: 2px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -182,8 +183,49 @@ header {
     border: none;
     margin: 0 auto;
     padding-left: 5px;
-    
-
 }
 
 
+.field button[ type="button"] {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align:center;
+}
+
+#work-option{
+    margin-top: 15px;
+}
+
+.info{
+    border: 1px solid #ccc;
+    display:flex;
+    padding: 10px 0;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.info img{
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+    
+}
+
+.info a{
+    text-decoration: none;
+    color: #0071ce;
+}
+
+
+
+
+
+
+
+
+
+  

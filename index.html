@@ -89,26 +89,30 @@
     </section>
     <div class="container">
         <form id="form-filter">
+           <div id="form-filter-content">
             <div class="field">
                 <input type="text" name="destino" placeholder="Para onde você vai?">
             </div>
             <div class="field">
-                <button>Data de check in - Data de check-out</button>
+                <button type="button">Data de check in - Data de check-out</button>
             </div>
             <div class="field">
-                <button>2 adultos - 0 criança - 1 quarto</button>
+                <button type="button">2 adultos - 0 criança - 1 quarto</button>
             </div>
             <button type="submit">Pesquisar</button>
-    
-           
-        </form>
-
+           </div>
+    <div id="work-option">
         <input type="checkbox" value="trabalho" name="viagemTrabalho" id="viagemTrabalho">
         <label for="viagemTrabalho">Vou viajar a trabalho</label>
     </div>
+           
+        </form>
 
-    <div>
-        <img src="" alt="Informações">
+        
+    </div>
+
+    <div class="container info">
+        <img src="assets/icons/descanso.svg" alt="Informações">
         <p>
             Leia as recomendações necessárias. Confira as últimas restrições
             relacionadas à COVID-19 antes de viajar.
@@ -116,7 +120,7 @@
         </p>
     </div>
 
-    <article>
+    <article class="container offers">
         <h2>Ofertas</h2>
         <p>Promoções e ofertas especiais para você</p>
 
