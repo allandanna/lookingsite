@@ -238,9 +238,34 @@ header {
     background-image: url("assets/banner-oferta.jpeg");
     background-repeat:no-repeat;
     background-size: cover;
-    
+    width: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-right: 2rem;    
 }
 
+.offers-banner h4, p{
+width: 45%;
+margin-bottom: 10px;
+}
+
+.offers-banner button {
+    
+    background-color: #0071c2;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-top: 10px;
+    border: none;
+}
+
+.offers-banner button a{
+    text-decoration: none;
+    color: white;
+}
+.img-app {
+    width: 150px;
+}
 
 
 
